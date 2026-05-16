@@ -8,10 +8,10 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <BookOpen className="w-8 h-8 text-red-600" />
-              <span className="text-white font-serif text-xl font-bold">中国历史网</span>
+              <span className="text-white font-serif text-xl font-bold">中国文史网</span>
             </div>
             <p className="text-gray-400 mb-4">
-              中国历史网是专注于中国历史文化传播的综合性门户网站，致力于提供权威、准确、丰富的历史资讯和学术研究内容，让更多人了解和热爱中国历史文化。
+              中国文史网是专注于中国历史文化传播的综合性门户网站，致力于提供权威、准确、丰富的文史资讯和学术研究内容，让更多人了解和热爱中国历史文化。
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -63,7 +63,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm">
-          <p>© 2024 中国历史网 版权所有</p>
+          <p>© 2024 中国文史网 版权所有</p>
           <p className="mt-2">
             <a href="#" className="hover:text-gray-300 transition-colors">隐私政策</a>
             <span className="mx-2">|</span>

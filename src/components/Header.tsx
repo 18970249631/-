@@ -39,7 +39,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => navigate('/')}>
             <BookOpen className="w-8 h-8 text-yellow-400" />
-            <span className="text-white font-serif text-xl font-bold">中国历史网</span>
+            <span className="text-white font-serif text-xl font-bold">中国文史网</span>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
