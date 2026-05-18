@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-05-18",
+  "signatures": [
+    {
+      "name": "EICAR-Test-File",
+      "type": "test",
+      "description": "Standard EICAR antivirus test file",
+      "md5": "44d88612fea8a8f36de82e1278abb02f",
+      "sha256": "275a021bbfb6489e54d471899f7db9d1663f451c1b230147b0ef4049832a24c"
+    },
+    {
+      "name": "Trojan.Generic",
+      "type": "trojan",
+      "description": "Generic trojan horse malware",
+      "md5": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "Backdoor.Win32.Farfli",
+      "type": "backdoor",
+      "description": "Farfli remote access trojan",
+      "md5": "e5d9c8f1a7b3e9d2c4f6a8b0c2d4e6f8",
+      "sha256": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c"
+    },
+    {
+      "name": "Ransomware.TeslaCrypt",
+      "type": "ransomware",
+      "description": "TeslaCrypt ransomware variant",
+      "md5": "b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9",
+      "sha256": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4"
+    },
+    {
+      "name": "Worm.VBGeneric",
+      "type": "worm",
+      "description": "Generic Visual Basic worm",
+      "md5": "c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0",
+      "sha256": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5"
+    },
+    {
+      "name": "Spyware.KeyLogger",
+      "type": "spyware",
+      "description": "Generic keylogger spyware",
+      "md5": "d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1",
+      "sha256": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6"
+    },
+    {
+      "name": "Adware.PopupGen",
+      "type": "adware",
+      "description": "Adware popup generator",
+      "md5": "e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+      "sha256": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7"
+    },
+    {
+      "name": "Rootkit.KernelMode",
+      "type": "rootkit",
+      "description": "Kernel mode rootkit",
+      "md5": "f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+      "sha256": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8"
+    }
+  ],
+  "heuristic_patterns": {
+    "suspicious_extensions": [".exe", ".dll", ".bat", ".cmd", ".vbs", ".js", ".scr", ".pif", ".com"],
+    "double_extensions": [".txt.exe", ".jpg.exe", ".pdf.exe", ".doc.exe", ".xls.exe", ".zip.exe"],
+    "suspicious_keywords": [
+      "eval(",
+      "base64_decode(",
+      "system(",
+      "exec(",
+      "shell_exec(",
+      "passthru(",
+      "popen(",
+      "curl_exec(",
+      "assert(",
+      "preg_replace(",
+      "call_user_func(",
+      "wscript.shell",
+      "scripting.filesystemobject",
+      "CreateObject(",
+      "XFAObject",
+      "MSXml2.XMLHTTP",
+      "Win32_Process",
+      "CreateRemoteThread",
+      "VirtualAllocEx",
+      "WriteProcessMemory"
+    ]
+  }
+}
